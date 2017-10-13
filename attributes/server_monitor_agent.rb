@@ -15,3 +15,5 @@ default['newrelic']['server_monitor_agent']['windows64_checksum'] = nil
 default['newrelic']['server_monitor_agent']['windows32_checksum'] = nil
 default['newrelic']['server_monitor_agent']['template']['cookbook'] = nil
 default['newrelic']['server_monitor_agent']['template']['source'] = nil
+default['newrelic']['server_monitor_agent']['download_source'] = "http://download.newrelic.com/windows_server_monitor/release/NewRelicServerMonitor_x86_3.3.6.0.msi" 
+#default['newrelic']['server_monitor_agent']['download_source'] = "http://download.newrelic.com/windows_server_monitor/release/NewRelicServerMonitor_x86_#{new_resource.windows_version}.msi" 
